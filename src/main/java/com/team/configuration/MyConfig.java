@@ -27,7 +27,7 @@ public class MyConfig {
             dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
             dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/my_db?useSSL=false");
             dataSource.setUser("bestuser");
-            dataSource.setPassword("bestuser");
+            dataSource.setPassword("bestuser1");
         } catch (Exception e) {
             e.printStackTrace();
         }
