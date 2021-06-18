@@ -1,0 +1,10 @@
+com\team\configuration\MyWebInitializer.class
+com\team\controllers\FirstController.class
+com\team\dao\PersonDAO.class
+com\team\exceptions\ConflictException.class
+com\team\services\PersonService.class
+com\team\configuration\MyConfig.class
+com\team\dao\PersonDAOimpl.class
+com\team\services\PersonServiceImpl.class
+com\team\entity\ChangedEmail.class
+com\team\entity\Person.class
