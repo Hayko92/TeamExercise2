@@ -24,10 +24,10 @@ public class MyConfig {
         try{
 
 
-            dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
-            dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/my_db?useSSL=false");
-            dataSource.setUser("bestuser");
-            dataSource.setPassword("bestuser1");
+            dataSource.setDriverClass("org.postgresql.Driver");
+            dataSource.setJdbcUrl("postgres://pjwndmxsggmmts:fc7efc2f06e4837d181e3e6e8b808cd5abf310f98a5e885112de9faaed457252@ec2-3-234-22-132.compute-1.amazonaws.com:5432/d53au5o3nl890v");
+            dataSource.setUser("pjwndmxsggmmts");
+            dataSource.setPassword("fc7efc2f06e4837d181e3e6e8b808cd5abf310f98a5e885112de9faaed457252");
         } catch (Exception e) {
             e.printStackTrace();
         }
